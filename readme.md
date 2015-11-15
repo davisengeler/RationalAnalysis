@@ -18,4 +18,4 @@ number in any valid base `b`.
 
 | Feature | Return | Description |
 |---------|--------|-------------|
-| `accuracy(int base, int storageSize)` | `double` | Percent accuracy of of the number when stored in `storageSize` for the given `base`. |
+| `accuracy()` | `double` | Percent accuracy of of the number when stored in `storageSize` for the given `base`. |
