@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class Main {
+public class Example {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -9,7 +9,7 @@ public class Main {
 		Integer numerator = input.nextInt();
 		System.out.println("Enter the denominator:");
 		Integer denominator = input.nextInt();
-		RationalNumber number = new RationalNumber(numerator, denominator);
+		RationalAnalysis number = new RationalAnalysis(numerator, denominator);
 		number.printInfo();
 	}
 
